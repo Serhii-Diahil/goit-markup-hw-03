@@ -141,6 +141,7 @@ address {
 .hero {
   background-color: #2e2f42;
   height: 600px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -151,7 +152,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
+  /* padding-top: 188px; */
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -179,6 +180,11 @@ address {
 /*-----------------------*/
 
 /*---------MENU----------*/
+
+.menu {
+  padding: 120 px 0;
+}
+
 .menu-list {
   display: flex;
   gap: 24px;
@@ -209,6 +215,7 @@ address {
 /*----------TEAM----------*/
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-item {
   background-color: #ffffff;
@@ -221,7 +228,7 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   margin-bottom: 72px;
 }
 
@@ -265,6 +272,8 @@ address {
 
 /*--------PORTFOLIO------*/
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -305,6 +314,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
